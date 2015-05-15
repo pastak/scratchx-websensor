@@ -33,3 +33,9 @@ This block return battery level with percentage.
 ![](https://i.gyazo.com/96d23dd07f46a56dfdc68a2d9a1dcbca.png)
 
 This block return acceleration includes the effect of gravity.
+
+### Geolocation (Float)
+
+![](https://i.gyazo.com/683ab603ea1a34d3244bd47dc296cebc.png)
+
+This block return geolocation of place which in you are.

@@ -32,6 +32,11 @@
         return Math.round(battery.level * 100)
       }
     };
+    ext.getGeolocation = function(type,callback){
+      navigator.geolocation.getCurrentPosition(function(position){
+        callback(position.coords[type])
+      });
+    }
 
     // ブロックと関数のひも付け
     var descriptor = {
@@ -39,9 +44,11 @@
             ['r', 'Light sensor', 'getLightSensor',null],
             ['r', 'Battery', 'getBatteryLevel',null],
             ['r', 'Acceleration %m.acceleration', 'getAcceleration', 'x'],
+            ['R', 'Geolocation %m.geo', 'getGeolocation', 'latitude']
         ],
         menus: {
-          acceleration: ['x', 'y', 'z']
+          acceleration: ['x', 'y', 'z'],
+          geo: ['latitude', 'longitude']
         }
     };
 
