@@ -1,6 +1,6 @@
 # scratchx-websensor
 
-- ScratchX extension for [WebAPI](https://wiki.mozilla.org/WebAPI) and [Web Sensor API](http://smus.com/web-sensor-api/)
+- [ScratchX extension](http://llk.github.io/scratch-extension-docs/) for [WebAPI](https://wiki.mozilla.org/WebAPI) and [Web Sensor API](http://smus.com/web-sensor-api/)
 
 ## Usage
 
